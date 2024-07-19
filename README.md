@@ -1,7 +1,6 @@
 # Optimizing Online Sports Retail Revenue
 
-![Untitled](![image](https://github.com/user-attachments/assets/cc5c7b9e-56e9-426a-ae01-3d255948e7e5)
-)
+![image](https://github.com/user-attachments/assets/30f49844-80c5-4d91-9588-ce6d32091328)
 
 # **Project Description**
 
@@ -13,7 +12,7 @@ Data sources: [**here**](https://www.kaggle.com/datasets/irenewidyastuti/datacam
 
 The dataset contains five tables, with `product_id` being the primary key for all of them:
 
-![Screenshot (51).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/183521cb-0ee9-4f14-b302-4617f0ecd40b/Screenshot_(51).png)
+![Screenshot (51)](https://github.com/user-attachments/assets/01b03eb4-961d-490a-ac22-e3ff99caa7f2)
 
 # **Analysis and Insights:**
 
@@ -37,7 +36,7 @@ from
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/03ab5738-f311-4fe4-bcea-95bf15411906/Untitled.png)
+![image](https://github.com/user-attachments/assets/2cedb179-c38d-44ec-9bce-d7c1e751410b)
 
 We have a total of 3,179 products in the database and over 5% of `last_visited` values are missing.
 
@@ -66,11 +65,10 @@ order by
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/e7e15f44-5806-47d6-b8e7-454d1ae7f71c/Untitled.png)
-
+![image](https://github.com/user-attachments/assets/2432a4b9-daae-420c-81b1-b8bd7d56325a)
 …
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/3165e9bd-060b-433d-a305-28b89e98d51c/Untitled.png)
+![image](https://github.com/user-attachments/assets/eab1919f-ee7f-4ad6-b06d-ccf32caa8666)
 
 There are 77 unique prices points across Nike and Adidas products.
 
@@ -107,7 +105,7 @@ order by
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/436cafff-72f5-454f-944e-a0aff67d9cf5/Untitled.png)
+![image](https://github.com/user-attachments/assets/4a7283fe-b60d-4109-a772-33f699070ccc)
 
 Adidas items generate more revenue overall, with "Elite" products priced at $129 or more contributing the most.
 
@@ -134,7 +132,7 @@ order by average_discount;
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/1a419ff8-c5c1-409d-a64c-00e590b3a917/Untitled.png)
+![image](https://github.com/user-attachments/assets/d51a5bac-6f5a-48fa-8777-f8034f1f348d)
 
 Interestingly, Nike products appear to have no discounts. In contrast, not only do Adidas products generate the most revenue, but they also have substantial discounts.
 
@@ -169,7 +167,7 @@ from Stats;
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/fe975092-abfb-42f0-ba51-474f67c4195e/Untitled.png)
+![image](https://github.com/user-attachments/assets/57cede9a-6650-4d77-9681-e13aafb1d6d8)
 
 Interestingly, a strong positive correlation exists between `revenue` and `reviews`. This means, potentially, if we can get more reviews on the company's website, it may increase sales of those items with a larger number of reviews.
 
@@ -200,7 +198,7 @@ order by
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/09455fa7-b99d-4b0f-8080-4f7bf4869927/Untitled.png)
+![image](https://github.com/user-attachments/assets/3d97451a-5ddd-4306-a857-52310fce2d2e)
 
 Regrettably, it appears that there isn't a clear, discernible pattern between product description length and ratings.
 
@@ -234,7 +232,7 @@ order by
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/f1009eee-c218-451d-b7d2-e4b49bc20b6a/Untitled.png)
+![image](https://github.com/user-attachments/assets/0c9ebbb1-bb56-40d7-a2fe-4d3005c30e24)
 
 It appears that product `reviews` are most abundant during the first quarter of the calendar year (Q1). This presents a golden opportunity to experiment with strategies that can maintain or even increase review volume throughout the rest of the year.
 
@@ -265,7 +263,7 @@ from highest_revenue_product;
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/434355d7-a69d-40c3-8e96-b2c5baafaef9/Untitled.png)
+![image](https://github.com/user-attachments/assets/5866dc45-1224-46da-b3ca-d6a25b18ff6c)
 
 Among the top ten revenue-generating products by brand, Nike stands out with sales around $64k. Notably, footwear is the top revenue-generating product category.
 
@@ -294,7 +292,7 @@ from
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/376aa9c0-715c-48f8-b4eb-f8c096c3d7d5/Untitled.png)
+![image](https://github.com/user-attachments/assets/ba0fac87-6e92-4ace-b45f-b8cfb65dfd2c)
 
 Digging deeper into footwear performance, we see that footwear makes up a significant portion of the company's inventory, at roughly 85% (2,700 out of 3,117 products). Furthermore, the median revenue for footwear products is over $3,000.
 
@@ -328,7 +326,7 @@ where
 
 *Results:*
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a8c280c-88c2-4377-aa50-c8de0f49170e/edfe5d1a-9cda-4863-8adf-988310d7fe24/Untitled.png)
+![image](https://github.com/user-attachments/assets/90544bfe-d69b-411a-b882-7731d7aa5b66)
 
 Our analysis reveals 417 clothing products in the dataset, with a median revenue of $503.82.
 
